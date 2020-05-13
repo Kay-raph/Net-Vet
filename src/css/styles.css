@@ -1,0 +1,307 @@
+body{
+  scroll-behavior: smooth;
+  margin: auto;
+  background-image: url("../img/cute.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: fixed;
+}
+nav{
+  top: 0;
+    width: 100%;
+    background-color: green;
+    margin-left: 0;
+    left: 0;
+}
+nav a{
+  text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: right;
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: darkgray;
+}
+    .intro {
+      background-image: url("../img/monkey-n-leaves.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      font-family: 'Chewy', cursive;
+      color: white;
+  }
+  .intro h1{
+    font-size: 4em;
+  }
+  .intro h1,
+  h2
+     { 
+       padding: 20px;
+    width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+  }
+   #ab{
+     text-align: center;
+   }
+   .abt h1{
+     margin: auto;
+     border: 2px solid gray; 
+     border-radius: 22px;
+      width: 20%;
+      text-align: center;
+   }
+   .abt p{
+     letter-spacing: 2px;
+     text-align: justify;
+   }
+  .abt{
+    padding: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+ .serv h1{
+   color: white;
+     margin: auto;
+     border: 2px solid gray; 
+     border-radius: 22px;
+      width: 40%;
+      text-align: center;
+   }
+   .serv img{
+     margin: 20px;
+     height: 300px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+}
+  #routine, #general, #pet, #vaccinate, #surgery, #grooming, #dentistry, #nutrition,#development,#animal{
+    display:none;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-weight:bold;
+    font-size: small;
+    width: 400px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+ 
+  .pe{
+    position:absolute;
+    left:105%;
+    top:105%;
+    
+  }
+  .nutritio{
+    position:absolute;
+    left:200%;
+    bottom:90%;
+  }
+  .anima{
+    position:absolute;
+    left:205%;
+    top:8%;
+  }
+  body{
+    overflow-x: hidden;
+  }
+
+#hide{
+  display:none;
+}
+.booking h2{
+  margin: auto;
+  width: 40%;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.booking input#email,#telephone,#name,#animals{
+  color: white;
+  background: darkgray;
+  border-radius: 10px;
+  width: 60%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#hide input{
+  color: white;
+  background: darkgray;
+  border-radius: 5px;
+  width: 40%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#bk{
+  width: 20%;
+}
+.cdata-overlay{
+  margin-left: 130px;
+}
+.booking input#time{
+  color: white;
+  background: darkgray;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.booking textarea{
+  color: white;
+  background: darkgray;
+  border-radius: 10px;
+  width: 60%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#booknow,#bookdoctor{
+  width: 20%;
+}
+#contact h3{
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 40%;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.card{
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 250px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.card h4{
+  font-weight: bolder;
+  color: green;
+}
+.card p{
+  font-size: small;
+  color: white;
+}
+.footer{
+  background-color: green;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+.footer p{
+  text-align: center;
+  color: white;
+}
+@media screen and (max-width: 500px) {
+  nav a{
+    font-size: smaller;
+    font-weight: normal;
+  }
+  h2,h3{
+    font-size: medium;
+  }
+  .abt h1{
+    width: 90px;
+    font-size: small;
+  }
+   .serv h1{
+     font-size: small;
+   color: white;
+     margin: auto;
+     border: 2px solid gray; 
+     border-radius: 22px;
+      width: 50%;
+      text-align: center;
+   }
+   .booking h2{
+     width: 80%;
+   }
+  p{
+    font-size: small;
+    font-weight: normal;
+  }
+  #booknow,#bookdoctor{
+  width: 40%;
+}
+.booking input#email,#telephone,#name,#animals{
+  color: white;
+  background: darkgray;
+  border-radius: 5px;
+  width: 90%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.booking textarea{
+  color: white;
+  background: darkgray;
+  border-radius: 5px;
+  width: 90%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#hide input{
+  color: white;
+  background: darkgray;
+  border-radius: 5px;
+  width: 80%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}e, #general, #pet, #vaccinate, #surgery, #grooming, #dentistry, #nutrition,#development,#animal{
+  width: 90%;
+}
+#bk{
+  width: 20%;
+  font-size: smaller;
+}
+.cdata-overlay{
+  margin-left: 0px;
+}
+.serv img{
+  width: 90%;
+  margin-left: 25px;
+}
+}
