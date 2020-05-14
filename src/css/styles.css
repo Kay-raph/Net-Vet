@@ -8,6 +8,7 @@ body{
   background-position: fixed;
 }
 nav{
+  scroll-behavior: smooth;
   top: 0;
     width: 100%;
     background-color: green;
